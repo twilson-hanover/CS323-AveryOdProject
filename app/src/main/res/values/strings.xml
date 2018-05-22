@@ -18,4 +18,5 @@
     <string name="americano">Americano</string>
     <string name="Extras">Extras:</string>
     <string name="submit">Submit Order</string>
+    <string name="ordered">Your order is being made!</string>
 </resources>

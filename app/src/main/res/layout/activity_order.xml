@@ -8,7 +8,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    android:columnCount="2"
+    android:columnCount="5"
     tools:context=".OrderActivity">
 
     <TextView
@@ -140,7 +140,18 @@
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_row="15"
-        android:text="@string/submit" />
+        android:text="@string/submit"
+        android:onClick="orderDrink"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="226dp"
+        android:layout_height="160dp"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_row="6"
+        android:layout_rowSpan="7"
+        android:src="@drawable/logo2" />
 
 
 </GridLayout>
