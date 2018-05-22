@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">CS323-AveryOdProject</string>
+    <string name="message">Choose what dink you want to order!</string>
+    <string name="sugar">Sugar</string>
+    <string name="milk">Milk</string>
+    <string name="caramel">Caramel</string>
+    <string name="mocha">Mocha</string>
+    <string name="temp">Tempature: </string>
+    <string name="hot">HOT</string>
+    <string name="cold">ICED</string>
+    <string name="name">Name for Order:</string>
+    <string name="Drink">Drink:</string>
+    <string name="Flavor">Flavor:</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="creamer">Creamer</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="latte">Latte</string>
+    <string name="americano">Americano</string>
+    <string name="Extras">Extras:</string>
+    <string name="submit">Submit Order</string>
 </resources>
