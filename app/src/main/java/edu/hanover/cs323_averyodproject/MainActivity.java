@@ -26,6 +26,7 @@ public class MainActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch(item.getItemId()){
             case R.id.action_create_order:
+                //code to run when the Create Order item is clicked
                 Intent intent = new Intent(this, OrderActivity.class);
                 startActivity(intent);
                 return true;

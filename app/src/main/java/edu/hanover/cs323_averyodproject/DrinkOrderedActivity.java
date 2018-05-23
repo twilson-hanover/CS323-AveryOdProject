@@ -10,6 +10,7 @@ public class DrinkOrderedActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drink_ordered);
+        // creating the toast
         Toast.makeText(this, "", Toast.LENGTH_LONG).show();
         Toast.makeText(this, "", Toast.LENGTH_LONG).show();
         Toast.makeText(this, "Your order is ready!", Toast.LENGTH_SHORT).show();

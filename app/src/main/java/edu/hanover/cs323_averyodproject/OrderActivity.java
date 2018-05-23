@@ -14,6 +14,7 @@ public class OrderActivity extends Activity {
     }
 
     public void orderDrink(View view){
+        // the orderDrink method that is called when the order button is clicked
         Intent startNewActivity = new Intent(this, DrinkOrderedActivity.class);
         startActivity(startNewActivity);
     }
