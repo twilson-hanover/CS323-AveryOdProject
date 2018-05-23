@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity" />
+        <activity android:name=".OrderActivity"
+            android:label="@string/title_order_activity"/>
         <activity android:name=".DrinkOrderedActivity"></activity>
     </application>
 
